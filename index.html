@@ -57,54 +57,25 @@
 	// iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
 	(function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
 	</script>
-	<style>
-	html {
-		font-size: 18px;
-	}
-	body {
-		background: #36FF00;
-		color: #fff;
-		font-family: sans-serif;
-	}
-	h1 {
-		font-size: 3rem;
-		font-weight: normal;
-	}
-	h2 {
-		font-size: 2rem;
-	}
-	a {
-		text-decoration: none;
-	}
-	a:hover {
-		font-weight: bold;
-	}
-	</style>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://disainco.com/argenis/css/colores.css">
+	<style>html{font-size:18px}body{font-family:sans-serif}h1{font-size:3rem;font-weight:400}h2{font-size:2rem}a{text-decoration:none!important}a:hover{font-weight:700}</style>
 </head>
-<body>
+<body class="bg-arcoiris">
 	<section>
 		<center>
 			<h1>
 				Show Payasito
-				<br /><strong>Chiripiorcas</strong>
+				<br />
+				<strong>Chiripiorcas</strong>
 			</h1>
+			<img class="img-responsive hidden-md hidden-lg" style="max-width:75%;" src="images/payasito-chiripiorcas.png" alt="Payasito Chiripiorcas">
+			<img class="img-responsive hidden-xs hidden-sm" style="max-width:35%;" src="images/payasito-chiripiorcas.png" alt="Payasito Chiripiorcas">
 			<h2>
 				Proximamente
 			</h2>
 		</center>
 	</section>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
 	<footer>
 		<center>
 			<a href="http://DisainCo.com/argenis/" target="_blank">DisainCo</a>
