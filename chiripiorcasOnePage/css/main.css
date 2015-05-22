@@ -634,7 +634,7 @@ label.error {
 }
 
 #map_canvas {
-  height: 215px;
+  height: 400px;
   width: 100%;
 }
 
@@ -714,7 +714,7 @@ label.error {
 
 .copyright {
   color: #fff;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 #back-top {
