@@ -119,10 +119,10 @@ $(document).ready(function(){
 
 // ==========  START GOOGLE MAP ========== //
 function initialize() {
-    var myLatLng = new google.maps.LatLng(22.402789, 91.822156);
+    var myLatLng = new google.maps.LatLng(19.438122, -99.191102);
 
     var mapOptions = {
-        zoom: 14,
+        zoom: 50,
         center: myLatLng,
         disableDefaultUI: true,
         scrollwheel: false,
